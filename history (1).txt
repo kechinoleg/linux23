@@ -1,0 +1,51 @@
+   0 cd /home/
+   1 mkdir animals
+   2 mkdir /home/animals/dogs
+   3 mkdir /home/animals/cats
+   4 mkdir /home/animals/fish
+   5 touch /home/animals/dogs/pluto.txt
+   6 touch /home/animals/cats/garfield.txt
+   7 touch /home/animals/fish/nemo.txt
+   8 tree /home/
+   9 mkdir /home/planets
+  10 ls
+  11 cd
+  12 cd /opt/
+  13 touch Mercury.txt
+  14 touch Venus.txt
+  15 touch Mars.txt
+  16 touch Jupiter.txt
+  17 ls
+  18 cd
+  19 mv /opt/Mercury.txt /home/planets/
+  20 mv /opt/Mars.txt /home/planets/
+  21 mv /opt/Venus.txt /home/planets/
+  22 mv /opt/Jupiter.txt /home/planets/
+  23 ls /home/planets/
+  24 cd /tmp/
+  25 touch adam.txt
+  26 ls
+  27 cd
+  28 mkdir /home/humans
+  29 ls
+  30 cd /home/
+  31 ls
+  32 cp /tmp/adam.txt /home/humans/
+  33 ls /home/humans/
+  34 cd /tmp/
+  35 touch evA
+  36 ls
+  37 rmdir evA
+  38 rm -f evA
+  39 ls
+  40 touch evA.txt
+  41 ls
+  42 cd
+  43 mv /tmp/evA.txt /opt/eve.txt
+  44 ls /opt/
+  45 mv /opt/eve.txt /home/humans/
+  46 ls /home/humans/
+  47 history > domashka_0205.txt
+  48 export_domashka_0205.txt
+  49 history
+  50 history > history.txt
